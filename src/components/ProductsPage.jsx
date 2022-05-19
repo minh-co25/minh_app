@@ -46,7 +46,7 @@ export function ProductsPage({ productIds }) {
   if (error) {
     console.warn(error);
     return (
-      <Banner status="critical">There was an issue loading products.</Banner>
+      <Banner status="critical">There was an issue loading products 1.</Banner>
     );
   }
 
