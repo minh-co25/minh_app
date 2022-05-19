@@ -77,7 +77,7 @@ export async function createServer(
       res.status(200).send(response.body);
     } catch (error) {
       res.status(500).send(error.message);
-    }
+    };
   });
 
   app.use(express.json());
